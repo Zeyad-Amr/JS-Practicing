@@ -15,7 +15,7 @@ const [first,{name:name2, capital:capital2}, third, ...rest] = countries; // des
 console.log(name2);
  */
 
-/* 
+
 const userData={ // destructuring the object
     persons:[
         {name: 'Zeyad', age: 40},
@@ -24,11 +24,15 @@ const userData={ // destructuring the object
     status:'active'
 }
 
-const {persons:[,{name,age,more:[gender,height]}]}=userData;
+const {persons:personsArrayFormate, persons:[,{name,age,more:moreArrayFormate,more:[gender,height]}]}=userData;
+console.log(personsArrayFormate)
+console.log(moreArrayFormate)
+
 console.log(gender)
 
 
- */
+
+
 
 /* 
 const names=["Zeyad", "Amr", "Fekry", "Ebrahim" ]
