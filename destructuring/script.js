@@ -15,7 +15,7 @@ const [first,{name:name2, capital:capital2}, third, ...rest] = countries; // des
 console.log(name2);
  */
 
-
+/* 
 const userData={ // destructuring the object
     persons:[
         {name: 'Zeyad', age: 40},
@@ -29,22 +29,7 @@ console.log(personsArrayFormate)
 console.log(moreArrayFormate)
 
 console.log(gender)
-
-
-
-
-
-/* 
-const names=["Zeyad", "Amr", "Fekry", "Ebrahim" ]
-
-// for (let i = 0; i < names.length; i++){
-//     const element = names[i];
-//     console.log(element)
-// }
-
-names.forEach((e, i) => console.log(`${i+1}. ${e}`)) // forEach is a method of array
  */
-
 /* 
 const userInfo = {name:'Zeyad', age:40, more:['male', 170]}
 
